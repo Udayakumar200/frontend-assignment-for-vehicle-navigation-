@@ -1,0 +1,18 @@
+.vm-container { font-family: Arial, sans-serif; padding: 12px; }
+.controls { display:flex; gap:10px; align-items:center; margin-bottom:8px; }
+.controls button, .controls select { padding:6px 10px; border-radius:6px; }
+.meta { margin-left: 20px; font-size:14px; }
+
+.map-and-panel { display:flex; gap:12px; align-items:flex-start; }
+.map-wrap { flex: 1; min-width: 600px; }
+.directions-panel { width: 360px; max-height: 600px; overflow:auto; background:#fff; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,.12); padding:12px; }
+.directions-panel h3 { margin:0 0 8px 0; }
+.directions-list { list-style: none; padding:0; margin:0; }
+.directions-list li { border-bottom: 1px solid #eee; padding:8px 0; }
+.directions-list .instr { font-weight:600; }
+.directions-list .meta-line { color:#666; font-size:13px; margin-top:6px; }
+
+.car-div-icon { pointer-events:none; transform-origin: center; }
+
+/* small hint text */
+.hint { padding:6px 0; font-size:13px; color:#444; }
